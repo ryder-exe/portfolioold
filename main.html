@@ -24,7 +24,7 @@
         </nav>
 
         <div class="maincontent">
-            <div class="maintextcontent">
+            <div class="maintextcontent" data-0-top="opacity:0;right:100px;" data-200-top="opacity:1;right:0px">
                 <div class="maintext">WELCOME TO MY PORTFOLIO</div>
                 <div class="maintext2">Hi!! I'm Faiz Khan.</div>
                 <div class="maintext3"></div>
@@ -42,8 +42,8 @@
     <section class="about">
         <div class="aboutmain1">
             <div class="text">
-                <div class="abouttext">ABOUT</div>
-                <div class="aboutcontent">
+                <div class="abouttext" data-200-top="opacity:1;right: 0px;" data-1100-top="opacity:0;right: 500px">ABOUT</div>
+                <div class="aboutcontent" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
                     <div class="textcontent">Hello , My self Faiz Khan . I’m a College Student,
                         Small Web developer , Software Developer and 
                         UI/UX Desginer.
@@ -58,8 +58,8 @@
             <!-- <img src="media/astronaut-skating-on-moon.gif" class="car1">
             <img src="media/astronot.gif" class="car2"> -->
         <div class="aboutmain2">
-            <div class="skilltext">SKILL</div>
-            <div class="skillcontent">
+            <div class="skilltext" data-703-top="opacity:1;right: 0px;" data-1100-top="opacity:0;right: 500px" >SKILL</div>
+            <div class="skillcontent" data-800-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
                 <div class="box">
                     <div class="circlechart" 
                     data-percentage="80">
@@ -93,14 +93,81 @@
 
      <section class="project">
         <div class="projectcontent">
-            <div class="projecttext">PROJECT</div>
+            <div class="projecttext" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 800px">PROJECT</div>
             <div class="projecttext2">Here are some of my Projects . You can check out these projects and
                 Follow my projects on my GitHub.</div>
-            <div class="projectcontent"></div>
+                <!-- <div class="c1"></div> -->
+            <div class="projectcontentlower">
+                <div class="block" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
+                    <img src="media/bot1.png">
+                    <div class="layer"></div>
+                    <h3>VLTRP DISCORD BOT</h3>
+                </div>
+                
+                <div class="block" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
+                    <img src="media/race.png">
+                    <div class="layer"></div>
+                    <h3>VLTRP RACE UI</h3>
+                </div>
+                
+                <div class="block" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
+                    <img src="media/wave.png">
+                    <div class="layer"></div>
+                    <h3>WAVE BOT</h3>
+                </div>
+                
+                <div class="block" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
+                    <img src="media/forest.jpg">
+                    <div class="layer"></div>
+                    <h3>FOREST VU.JS</h3>
+                </div>
+                
+                <div class="block" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
+                    <img src="media/calp.png">
+                    <div class="layer"></div>
+                    <h3>CALP</h3>
+                </div>
+                
+            </div>
         </div>
         
-        <!-- <div class="c1"></div>
-        <div class="c2"></div> -->
+        
+     </section>
+
+     <!---------------------------------------------------------------------------------------------------------------------------> 
+
+     <section class="connect">
+        <div class="connectblock">
+            <img src="media/3700_9_08.png" data-200-top="opacity:1; left: 0px;" data-1100-top="opacity:0; left: 400px">
+            <div class="block1">
+                <h3>GET IN TOUCH</h3>
+                <div class="containerblock" data-200-top="opacity:1; left: 0px;" data-1100-top="opacity:0; left: -500px">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" id="First Name" required>
+                            <label for="First Name">First Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="Last Name" required>
+                            <label for="Last Name">Last Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="Email" required>
+                            <label for="Email">Email ID</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="number" id="Number" required>
+                            <label for="Number">Number</label>
+                        </div>
+                        <div class="input-group">
+                           <textarea id="Message" rows="8" required></textarea>
+                            <label for="Message">Message</label>
+                        </div>
+                        <button type="submit" class="sendbutton">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
         
      </section>
 
@@ -121,6 +188,11 @@
         $(function(){
         $('.circlechart').circlechart();
         });
+    </script>
+    <script src="main.js"></script>
+    <script src="skrollr.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
     </script>
     
 </body>

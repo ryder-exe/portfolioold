@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
   /* Firefox */
@@ -91,6 +92,7 @@ nav img{
     width: 800px;
     height: 200px;
     /* background-color: antiquewhite; */
+    transition: 0.8s;
 }
 .maintext{
     color: white;
@@ -168,6 +170,7 @@ nav img{
     font-weight: bold;
     text-shadow: 0 0 5px white;
     padding: 0 0 2% 0;
+    transition: 0.8s;
 }
 .aboutcontent{
     display: flex;
@@ -178,6 +181,7 @@ nav img{
     background-image: linear-gradient(to right, #4759ff60 , #9d00ff49);
     font-size: 25px;
     border-radius: 10px;
+    transition: 0.8s;
 }
 .textcontent{
     margin-left: 5%;
@@ -212,6 +216,7 @@ nav img{
     font-weight: bold;
     text-shadow: 0 0 5px white;
     color: white;
+    transition: 0.8s;
 }
 .skillcontent{
     display: flex;
@@ -221,6 +226,7 @@ nav img{
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 1% 5%;
+    transition: 0.8s;
 }
 .box{
     text-align: center;
@@ -232,19 +238,17 @@ nav img{
 
 .project{
     display: block;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     min-height: 100vh;
     width: 100%;
     background-color: #020304;
 }
 .c1{
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 250vh;
     left: 65vh;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-image: linear-gradient(to right, #001aff 50% , #9d00ff 50%);
     filter: blur(250px);
 }
@@ -256,8 +260,111 @@ nav img{
     font-size: 60px;
     font-weight: bold;
     text-shadow: 0 0 5px white;
+    transition: 0.8s;
 }
 .projecttext2{
     color: rgb(135, 135, 135);
+}
+.projectcontentlower{
+    display: flex;
+    padding: 10% 2%;
+    justify-content: space-between;
+}
+
+.block{
+    flex-basis: 50%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 2%;
+    
+}
+.block img{
+    width: 200px;
+    height: 300px;
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to top, #475AFF , #ff0095) 1;
+    transition: 0.8s;
+}
+.layer{
+    background: transparent;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;transition: 0.5s;
+}
+.layer:hover{
+    background-color: #ff006f51;
+}
+
+.block h3{
+    padding-top: 5%;
+    color: white;
+}
+.connect{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #020304 35%, rgba(255, 0, 115, 0.626) 80%);
+}
+.block1 h3{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 5%;
+}
+.connectblock{
+    display: flex;
+    padding: 5% 8%;
+    justify-content: space-between;
+}
+.connectblock img{
+    width: 500px;
+}
+.form{
+    width: 70%;
+}
+.input-group{
+    margin-bottom: 10px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.226);
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: white;
+    cursor: text;
+    font-size: 13px;
+    transition: 0.5s;
+}
+.sendbutton{
+    width: 100px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    left: -82px;
+    font-size: 13px;
 }
 
