@@ -5,6 +5,27 @@
     font-family: 'Poppins', sans-serif;
 }
 
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ff006f #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff006f;
+    border-radius: 8px;
+    border: 3px solid #ffffff;
+  }
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -42,10 +63,201 @@ nav img{
     color: white;
     text-decoration: none;
     font-size: 13px;
+    text-shadow: 0 0 2px white;
 }
 
 .connectcontent{
     width: 60px;
-    height: 30px;
-    ;
+    height: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #475AFF , #9E00FF) 1;
 }
+
+.maincontent{
+    width: 80%;
+    display: flex;
+    padding: 15% 0 0 15%;
+    justify-content: space-between;
+}
+
+.maincontentimage img{
+    position: relative;
+    bottom: 150px;
+    width: 400px;
+}
+
+.maintextcontent{
+    width: 800px;
+    height: 200px;
+    /* background-color: antiquewhite; */
+}
+.maintext{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 450px;
+    height: 50px;
+    margin-bottom: 2%;
+    background-image: linear-gradient(to right,  #475AFF , #9E00FF);
+    text-align: center;
+    border: 2px solid white;
+}
+.maintext2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0  0 3px white;
+}
+.maintext3{
+    color: white;
+    font-size: 35px;
+}
+
+.maintext3::before{
+    content: ' ';
+    animation: animate infinite 15s;
+}
+@keyframes animate{
+    0%{
+        content: 'STUDENT';
+    }
+    20%{
+        content: 'SOFTWARE DEVELOPER';
+    }
+    40%{
+        content: 'UI DESIGNER';
+    }
+    60%{
+        content: 'WEB DEVELOPER';
+    }
+    80%{
+        content: 'FREELANCER';
+    }
+    100%{
+        content: 'STUDENT';
+    }
+
+    
+}
+
+.maintext4{
+    color: #FFD176;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #020304 40%, #9E00FF);
+}
+
+.aboutmain1{
+    display: flex;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 10%;
+}
+.text{
+    color: white;
+}
+.abouttext{
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0 0 5px white;
+    padding: 0 0 2% 0;
+}
+.aboutcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 220px;
+    background-image: linear-gradient(to right, #4759ff60 , #9d00ff49);
+    font-size: 25px;
+    border-radius: 10px;
+}
+.textcontent{
+    margin-left: 5%;
+    text-shadow: 0 0 2px white;
+}
+.aboutmain1 img{
+    position: relative;
+    top: 7vh;
+    width: 350px;
+    border-radius: 80%;
+    border: 5px solid white;
+}
+.car1{
+    position: relative;
+    bottom: 50vh;
+    width: 150px;
+}
+.car2{
+    position: relative;
+    bottom: 45vh;
+    left: 75vh;
+    width: 200px;
+}
+.aboutmain2{
+    height: 20%;
+    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.skilltext{
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0 0 5px white;
+    color: white;
+}
+.skillcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1% 5%;
+}
+.box{
+    text-align: center;
+}
+.box h2{
+    font-size: 13px;
+    color: white;
+}
+
+.project{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #020304;
+}
+.c1{
+    position: relative;
+    top: 200px;
+    left: 65vh;
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to right, #001aff 50% , #9d00ff 50%);
+    filter: blur(250px);
+}
+.projectcontent{
+    padding: 5%;
+}
+.projecttext{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0 0 5px white;
+}
+.projecttext2{
+    color: rgb(135, 135, 135);
+}
+

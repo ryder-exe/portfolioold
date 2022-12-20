@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="progresscircle.css">
     <title>PortFolio-FAIZ KHAN</title>
 </head>
 <body>
@@ -21,7 +22,106 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="maincontent">
+            <div class="maintextcontent">
+                <div class="maintext">WELCOME TO MY PORTFOLIO</div>
+                <div class="maintext2">Hi!! I'm Faiz Khan.</div>
+                <div class="maintext3"></div>
+                <div class="maintext4">Hello Guys I am a Software and UI/UX developer.Lets join me to explore some cool stuffs.</div>
+            </div>
+            <div class="maincontentimage">
+                <img src="media/astronaut-skating-on-moon.gif">
+            </div>
+        </div>
     </section>
+
+   <!---------------------------------------------------------------------------------------------------------------------------> 
+    
+    
+    <section class="about">
+        <div class="aboutmain1">
+            <div class="text">
+                <div class="abouttext">ABOUT</div>
+                <div class="aboutcontent">
+                    <div class="textcontent">Hello , My self Faiz Khan . I’m a College Student,
+                        Small Web developer , Software Developer and 
+                        UI/UX Desginer.
+                        Professional in most of the languages like
+                        html, css , JavaScript.
+                        You can collaborate with me to explore new 
+                        things. </div>
+                </div>
+            </div>
+            <img src="media/photo.jpg">
+        </div>
+            <!-- <img src="media/astronaut-skating-on-moon.gif" class="car1">
+            <img src="media/astronot.gif" class="car2"> -->
+        <div class="aboutmain2">
+            <div class="skilltext">SKILL</div>
+            <div class="skillcontent">
+                <div class="box">
+                    <div class="circlechart" 
+                    data-percentage="80">
+                    </div>
+                    <h2>Web Development</h2>
+                </div>
+                <div class="box">
+                    <div class="circlechart" 
+                    data-percentage="80">
+                    </div>
+                    <h2>UI/UX</h2>
+                </div>
+                <div class="box">
+                    <div class="circlechart" 
+                    data-percentage="60">
+                    </div>
+                    <h2>Design</h2>
+                </div>
+                <div class="box">
+                    <div class="circlechart" 
+                    data-percentage="70">
+                    </div>
+                    <h2>Coding</h2>
+                </div>
+                
+            </div>
+        </div>    
+    </section>
+
+     <!---------------------------------------------------------------------------------------------------------------------------> 
+
+     <section class="project">
+        <div class="projectcontent">
+            <div class="projecttext">PROJECT</div>
+            <div class="projecttext2">Here are some of my Projects . You can check out these projects and
+                Follow my projects on my GitHub.</div>
+            <div class="projectcontent"></div>
+        </div>
+        
+        <!-- <div class="c1"></div>
+        <div class="c2"></div> -->
+        
+     </section>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous">
+    </script>
+    <script src="progresscircle.js"></script>
+    <script type="text/javascript">
+        $(function(){
+        $('.circlechart').circlechart();
+        });
+    </script>
     
 </body>
 </html>
