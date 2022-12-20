@@ -6,6 +6,10 @@
     position: relative;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
   /* Firefox */
   * {
     scrollbar-width: auto;
@@ -150,6 +154,7 @@ nav img{
 }
 
 .about{
+    position: relative;
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(to right, #020304 40%, #9E00FF);
@@ -195,14 +200,15 @@ nav img{
     border: 5px solid white;
 }
 .car1{
-    position: relative;
+    position: absolute;
     bottom: 50vh;
+    left: 5vh;
     width: 150px;
 }
 .car2{
-    position: relative;
+    position: absolute;
     bottom: 45vh;
-    left: 75vh;
+    left: 100vh;
     width: 200px;
 }
 .aboutmain2{
@@ -294,7 +300,8 @@ nav img{
     width: 200px;
     position: absolute;
     top: 0;
-    left: 0;transition: 0.5s;
+    left: 0;
+    transition: 0.5s;
 }
 .layer:hover{
     background-color: #ff006f51;
@@ -321,6 +328,10 @@ nav img{
 }
 .connectblock img{
     width: 500px;
+    transition: all 0.8s;
+}
+.containerblock{
+    transition: all 0.8s;
 }
 .form{
     width: 70%;

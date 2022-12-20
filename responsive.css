@@ -1,0 +1,26 @@
+@media(max-width: 700px){
+
+
+    .maincontent{
+        padding: 30% 0 0 15%;
+    }
+
+    .maintextcontent{
+        width: 400px;
+        height: 200px;
+        /* background-color: antiquewhite; */
+        transition: 0.8s;
+    }
+    .maintext{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        width: 350px;
+        height: 30px;
+        margin-bottom: 2%;
+        background-image: linear-gradient(to right,  #475AFF , #9E00FF);
+        text-align: center;
+        border: 2px solid white;
+    }
+    
+}
