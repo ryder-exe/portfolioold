@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="responsive.css">
     <title>PortFolio-FAIZ KHAN</title>
 </head>
-<body>
+<body onscroll="myFunction()">
 
     <section class="header">
         <nav>
@@ -25,7 +25,7 @@
         </nav>
 
         <div class="maincontent">
-            <div class="maintextcontent" data-0-top="opacity:0;right:100px;" data-200-top="opacity:1;right:0px">
+            <div class="maintextcontent" id="maintextcontent">
                 <div class="maintext">WELCOME TO MY PORTFOLIO</div>
                 <div class="maintext2">Hi!! I'm Faiz Khan.</div>
                 <div class="maintext3"></div>
@@ -43,8 +43,8 @@
     <section class="about">
         <div class="aboutmain1">
             <div class="text">
-                <div class="abouttext" data-200-top="opacity:1;right: 0px;" data-1100-top="opacity:0;right: 500px">ABOUT</div>
-                <div class="aboutcontent" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
+                <div class="abouttext" id="abouttext">ABOUT</div>
+                <div class="aboutcontent" id="aboutcontent">
                     <div class="textcontent">Hello , My self Faiz Khan . I’m a College Student,
                         Small Web developer , Software Developer and 
                         UI/UX Desginer.
@@ -59,8 +59,8 @@
             <img src="media/astronaut-skating-on-moon.gif" class="car1">
             <img src="media/astronot.gif" class="car2">
         <div class="aboutmain2">
-            <div class="skilltext" data-703-top="opacity:1;right: 0px;" data-1100-top="opacity:0;right: 500px" >SKILL</div>
-            <div class="skillcontent" data-800-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
+            <div class="skilltext" id="skilltext">SKILL</div>
+            <div class="skillcontent" id="skillcontent">
                 <div class="box">
                     <div class="circlechart" 
                     data-percentage="80">
@@ -94,11 +94,11 @@
 
      <section class="project">
         <div class="projectcontent">
-            <div class="projecttext" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 800px">PROJECT</div>
-            <div class="projecttext2">Here are some of my Projects . You can check out these projects and
+            <div class="projecttext" id="projecttext">PROJECT</div>
+            <div class="projecttext2" id="projecttext2">Here are some of my Projects . You can check out these projects and
                 Follow my projects on my GitHub.</div>
                 <!-- <div class="c1"></div> -->
-            <div class="projectcontentlower">
+            <div class="projectcontentlower" id="bl">
                 <div class="block" data-200-top="opacity:1; top: 0px;" data-1100-top="opacity:0; top: 500px">
                     <img src="media/bot1.png">
                     <div class="layer"></div>
@@ -139,10 +139,10 @@
 
      <section class="connect">
         <div class="connectblock">
-            <img src="media/3700_9_08.png" data-200-top="opacity:1; left: 0px;" data-1100-top="opacity:0; left: 400px">
+            <img src="media/3700_9_08.png" id="lastimg">
             <div class="block1">
-                <h3>GET IN TOUCH</h3>
-                <div class="containerblock" data-200-top="opacity:1; left: 0px;" data-1100-top="opacity:0; left: -500px">
+                <h3 id="git">GET IN TOUCH</h3>
+                <div class="containerblock" id="containerblock">
                     <form>
                         <div class="input-group">
                             <input type="text" id="First Name" required>
@@ -191,10 +191,6 @@
         });
     </script>
     <script src="main.js"></script>
-    <script src="skrollr.js"></script>
-    <script type="text/javascript">
-        var s = skrollr.init();
-    </script>
     
 </body>
 </html>

@@ -48,6 +48,10 @@ nav{
     align-items: center;
 }
 
+nav svg{
+    display: none;
+}
+
 nav img{
     width: 200px;
 }
@@ -71,19 +75,21 @@ nav img{
     text-shadow: 0 0 2px white;
 }
 
-.connectcontent{
+/* .connectcontent{
     width: 60px;
     height: 25px;
     border-width: 2px;
     border-style: solid;
     border-image: linear-gradient(to right, #475AFF , #9E00FF) 1;
-}
+} */
 
 .maincontent{
+    position: relative;
     width: 80%;
     display: flex;
     padding: 15% 0 0 15%;
     justify-content: space-between;
+    transition: 0.8s;
 }
 
 .maincontentimage img{
@@ -270,6 +276,7 @@ nav img{
 }
 .projecttext2{
     color: rgb(135, 135, 135);
+    transition: 1s;
 }
 .projectcontentlower{
     display: flex;
@@ -283,6 +290,7 @@ nav img{
     position: relative;
     overflow: hidden;
     margin: 0 2%;
+    transition: 0.8s;
     
 }
 .block img{
@@ -377,5 +385,13 @@ textarea:focus~label,
 textarea:valid~label{
     left: -82px;
     font-size: 13px;
+}
+
+#bl{
+    transition: ease-out .8s;
+}
+
+#git{
+    transition: 0.8s;
 }
 
