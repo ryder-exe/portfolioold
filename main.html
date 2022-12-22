@@ -14,7 +14,12 @@
     <section class="header">
         <nav>
             <a href="#"><img src="media/logo.png"></a>
-            <div class="navcontent">
+            <div class="navcontent" id="navcontent">
+                <svg xmlns="http://www.w3.org/2000/svg" class="menu" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round" onclick="hidemenu()">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -22,6 +27,12 @@
                     <li class="connectcontent"><a href="">CONNECT</a></li>
                 </ul>
             </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="menu" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round" onclick="showmenu()">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+              </svg>
         </nav>
 
         <div class="maincontent">
@@ -65,7 +76,7 @@
                     <div class="circlechart" 
                     data-percentage="80">
                     </div>
-                    <h2>Web Development</h2>
+                    <h2>Web Dev</h2>
                 </div>
                 <div class="box">
                     <div class="circlechart" 

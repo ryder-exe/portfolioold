@@ -29,11 +29,11 @@
     }
     .navcontent{
         position: absolute;
-        background: #ff006a;
+        background: rgb(255, 0, 106);
         height: 100vh;
         width: 200px;
         top: 0;
-        right: 0;
+        right: -200px;
         text-align: left;
         z-index: 2;
         transition: 1s;
@@ -48,6 +48,7 @@
     .maincontentimage img{
         display: none;
     }
+ 
 
     /*------------------------------------------*/
 
@@ -100,6 +101,9 @@
         left: 100vh;
         width: 200px;
     }
+    .skillcontent{
+        width: 100%;
+    }
 
     /*----------------------------------------------------------*/
 
@@ -108,7 +112,7 @@
         padding: 10% 20%;
     }
     .block{
-        margin: 0 15%;
+        margin: 0 10%;
         
     }
 

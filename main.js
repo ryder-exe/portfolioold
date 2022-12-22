@@ -6,9 +6,11 @@ window.addEventListener('scroll', function() {
 var navcontent = document.getElementById("navcontent");
 function showmenu(){
     navcontent.style.right = "0";
+    navcontent.style.display="block";
 }
 function hidemenu(){
     navcontent.style.right = "-200px";
+    navcontent.style.display="none";
 }
 
 
@@ -40,11 +42,11 @@ function myFunction(){
 
         document.getElementById("bl").style.opacity="0";
 
-        document.getElementById("git").style.transform="translateX(70px)";
+        document.getElementById("git").style.transform="translateX(-100px)";
         document.getElementById("git").style.opacity="0";
 
 
-        document.getElementById("containerblock").style.transform="translateX(-200px)";
+        document.getElementById("containerblock").style.transform="translateX(-100px)";
         document.getElementById("containerblock").style.opacity="0";
 
 
@@ -52,7 +54,7 @@ function myFunction(){
         document.getElementById("lastimg").style.opacity="0";
     }
     if(window.scrollY > 200 && window.scrollY <=300){
-        document.getElementById("maintextcontent").style.transform="translateX(-50px)";
+        document.getElementById("maintextcontent").style.transform="translateX(-100px)";
         document.getElementById("maintextcontent").style.opacity="0";
     }
     if(window.scrollY >300 && window.scrollY <= 400){
