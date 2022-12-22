@@ -95,3 +95,15 @@ function myFunction(){
     }
 }
 
+// function mobilechange(x) {
+//     if (x.matches) { 
+      
+//     } 
+//     else {
+//       document.body.style.backgroundColor = "pink";
+//     }
+//   }
+  
+//   var x = window.matchMedia("(max-width: 700px)")
+//   mobilechange(x) 
+//   x.addListener(mobilechange) 

@@ -1,9 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
+
 @media screen and (max-width: 700px){
+
 
 
     .maincontent{
@@ -106,8 +103,49 @@
 
     /*----------------------------------------------------------*/
 
-    
+    .projectcontentlower{
+        display: block;
+        padding: 10% 20%;
+    }
+    .block{
+        margin: 0 15%;
+        
+    }
 
+    .block img{
+        width: 150px;
+        height: 150px;
+    }
+    .block h3{
+        padding-top: 5%;
+        color: white;
+        font-size: 13px;
+    }
 
-    
+    /*----------------------------------------------------------*/
+
+    .connectblock{
+        display: block;
+        padding: 5% 8%;
+        justify-content: space-between;
+    }
+
+    .connectblock img{
+        
+        display: none;
+    }
+
+    .sendbutton{
+        position: relative;
+        left: 120px;
+    }
+    .layer{
+        display: none;
+    }
+     input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label{
+    opacity: 0;
+}
 }
