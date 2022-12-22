@@ -8,7 +8,7 @@
     }
 
     .maintextcontent{
-        width: 800px;
+        width: 500px;
         height: 500px;
         transition: 0.8s;
     }
@@ -61,10 +61,10 @@
     }
     .text{
         position: absolute;
-        top: 32vh;
+        top: 37vh;
     }
     .aboutcontent{
-        width: 350px;
+        width: 300px;
         height: 220px;
         font-size: 15px;
     }
@@ -77,7 +77,7 @@
     }
     .aboutmain2{
         position: absolute;
-        top: 65vh;
+        top: 75vh;
     }
     .skilltext{
         font-size: 40px;
@@ -148,4 +148,20 @@
     textarea:valid~label{
     opacity: 0;
 }
+}
+
+
+@media screen and (max-width: 1250px) and (min-width: 700px){
+    .car2{
+        display: none;
+    }
+    .car1{display: none;}
+    .aboutmain1 img{
+        position: absolute;
+        width: 250px;
+        top: 15vh;
+        left: 80vh;
+        border-radius: 80%;
+        border: 5px solid white;
+    }
 }
