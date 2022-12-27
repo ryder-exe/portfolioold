@@ -5,12 +5,12 @@ window.addEventListener('scroll', function() {
 
 var navcontent = document.getElementById("navcontent");
 function showmenu(){
-    navcontent.style.right = "0";
-    navcontent.style.display="block";
+    navcontent.style.top="0";
+
 }
 function hidemenu(){
-    navcontent.style.right = "-200px";
-    navcontent.style.display="none";
+    navcontent.style.top="-40vh";
+    
 }
 
 

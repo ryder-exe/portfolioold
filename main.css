@@ -57,6 +57,7 @@ nav img{
 }
 
 .navcontent{
+    display: block;
     flex: 1;
     text-align: right;
 }

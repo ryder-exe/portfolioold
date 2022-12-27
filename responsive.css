@@ -1,7 +1,6 @@
 
-@media screen and (max-width: 700px){
-
-
+@media screen and (max-width: 700px)
+{
 
     .maincontent{
         padding: 50% 0 0 8%;
@@ -16,27 +15,47 @@
         color: white;
         font-size: 20px;
         font-weight: bold;
-        width: 350px;
+        width: 300px;
         height: 30px;
         margin-bottom: 2%;
         background-image: linear-gradient(to right,  #475AFF , #9E00FF);
         text-align: center;
         border: 2px solid white;
     }
+    .maintext2{
+        padding-top: 5%;
+        font-size: 35px;
+    }
+    /* .navcontent ul{
+        padding-left: 10%;
+    } */
     .navcontent ul li{
         display: block;
-        padding: 10%;
+        padding: 5%;
     }
-    .navcontent{
+    /* .navcontent{
         position: absolute;
         background: rgb(255, 0, 106);
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -200px;
+        left: 212px;
         text-align: left;
         z-index: 2;
         transition: 1s;
+    } */
+    .navcontent{
+        position: absolute;
+        background: rgb(255, 0, 106);
+        height: 40vh;
+        width: 100%;
+        top: -40vh;
+        left: 0;
+        text-align: left;
+        z-index: 2;
+        transition: 0.8s;
+        text-align: center;
+        border-radius: 0  0 30% 30%;
     }
     nav svg{
         display: block;
