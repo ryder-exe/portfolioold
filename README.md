@@ -4,7 +4,7 @@
 ## A Minimal Looking portfolio About Myself.
 
 <h2 align="center">
-  <img src="https://github.com/cobiwave/gatsby-simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
+  <img src="https://github.com/ryder-exe/portfolio/blob/main/media/cover.png" alt="Simplefolio" width="600px" />
   <br>
 </h2>
 
@@ -41,6 +41,11 @@
 ⚡️Progresscircle\
 ⚡️Unsplash Images
 
-## Demo Pages
+## Author
+**Faiz Khan** - [https://github.com/ryder-exe](https://github.com/ryder-exe)
 
+## license 📃
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Acknowledgments 🎁
+I was motivated to create this project because I wanted to learn something new and develop project building skill.
